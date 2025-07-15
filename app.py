@@ -6,7 +6,7 @@ from keras.models import load_model
 from PIL import Image
 
 # Load trained model
-model = load_model("mnist_cnn_model.h5")
+model = load_model("mnist_cnn_model.keras")
 
 # Streamlit UI setup
 st.set_page_config(page_title="Digit Recognizer", layout="centered")
